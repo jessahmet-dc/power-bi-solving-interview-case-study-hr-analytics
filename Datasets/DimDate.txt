@@ -1,6 +1,6 @@
-DimDate = 
-VAR _minYear = YEAR(MIN(DimEmployee[HireDate]))
-VAR _maxYear = YEAR(MAX(DimEmployee[HireDate]))
+Dates = 
+VAR _minYear = YEAR(MIN(Employee[HireDate]))
+VAR _maxYear = YEAR(MAX(Employee[HireDate]))
 VAR _fiscalStart = 4 
 
 RETURN
